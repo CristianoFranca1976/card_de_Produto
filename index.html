@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Cristiano Franca" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="lista de compra , adiciona ao basket" />
+    <title>Card de produto</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/LetraC.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="img1">
+        <button
+          type="button"
+          onclick="trocarImagem()"
+          title="360 degre"
+        ></button>
+        <img src="assets/image2.png" alt="sofa" id="sofa" />
+      </div>
+      <div class="retangulo">
+        <div class="retangulo1">
+          <p class="cod">CÓDIGO: 42404</p>
+          <p class="sofa">Sofá Margot II - Rosé</p>
+          <p class="price">R$ 4.000</p>
+        </div>
+        <button id="adiciona" title="Adicione aqui" onclick="adicionaCesta()">
+          ADICIONAR À CESTA
+        </button>
+        <div id="aviso" onclick="returnPage()">
+        <h1>Seu item foi adicionado</h1>
+      </div>
+      </div>
+      
+    </div>
+    <script src="JavaScript.js"></script>
+  </body>
+</html>

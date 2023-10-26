@@ -1,0 +1,130 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+#container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 875px;
+  height: 498px;
+  border-radius: 9.603px;
+  background: #d9cdf7;
+}
+#img1,
+#sofa {
+  width: 449px;
+  height: 253px;
+}
+#img1 button {
+  border: none;
+  width: 33px;
+  height: 22.5px;
+  background-image: url(./assets/Vector.svg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+button:hover {
+  cursor: pointer;
+}
+#logo {
+  position: absolute;
+  width: 33px;
+  height: 22.469px;
+  margin-top: 8px;
+  margin-left: 366px;
+}
+.retangulo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 28px;
+  width: 281px;
+  height: 498px;
+  margin-left: 13px;
+}
+.retangulo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 12px;
+  width: 281px;
+  height: 82px;
+}
+p.cod {
+  width: 75px;
+  height: 10px;
+  color: #271a45;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 10px */
+  margin: 0;
+}
+p.sofa {
+  width: 274px;
+  height: 32px;
+  color: #271a45;
+  font-family: Crimson Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 32px */
+  margin: 0;
+}
+p.price {
+  width: 65px;
+  height: 16px;
+  color: #271a45;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+  margin: 0;
+}
+button#adiciona {
+  width: 148px;
+  height: 32px;
+  border-radius: 999px;
+  border: 0.5px solid #271a45;
+  color: #271a45;
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #d9cdf7;
+}
+button#adiciona:hover {
+  border: 1px solid #a283f0;
+  box-shadow: 5px 5px 50px 30px #8c69e7;
+}
+#aviso {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  display: none;
+  background: rgba(192, 192, 192, 0.308);
+  
+}
+h1 {
+   color: #794aee; 
+   border: 5px solid#622bec46;
+   width: 150px;
+   height: auto;
+   padding: 10px;
+   font-size: 30px;
+}
